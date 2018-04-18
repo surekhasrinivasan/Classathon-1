@@ -30,7 +30,7 @@ int main(int argc, string argv[])
     //check if the user do not enter number
     if (argc != 2)
     {
-        printf("Usage: ./factorialize sumFibs\n");
+        printf("Usage: ./sumFibs number\n");
         return 1;
     }
 
